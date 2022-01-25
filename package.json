@@ -1,0 +1,15 @@
+{
+  "name": "basic-node-api",
+  "version": "0.0.1",
+  "scripts": {
+    "js": "node src/index.js",
+    "ts": "NODE_OPTIONS=--enable-source-maps node start.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.16",
+    "esbuild": "^0.14.12"
+  },
+  "dependencies": {
+    "source-map": "^0.7.3"
+  }
+}
